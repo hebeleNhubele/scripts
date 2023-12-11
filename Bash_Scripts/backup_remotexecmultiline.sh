@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#read -p 'Enter Command to execute on remote machines: ' COMMAND
+#read -p 'Enter Command to execute on remote machines: ' COMMAND  a
 echo "Executing COMMANDs on all the WEBNODEs"
 
 for IP in $(cat webnodeIP.txt)
